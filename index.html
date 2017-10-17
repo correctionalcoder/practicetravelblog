@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Practice Travel Blog</title>
     <meta name="description" content="html-only travel blog project" />
     <meta name="keywords" content="html, project, travel, blog" />
     <meta name="robots" content="nofollow" />
     <meta http-equiv="author" content="Tyler Hall" />
     <meta http-equiv="pragma" content="no-cache" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice Travel Blog</title>
   </head>
-  <body id="content" class="content">
+  <body>
+    <div class="wrapper">
    <header id="top" class="header">
      <h1 class="home heading">Practice Travel Blog</h1>
-          <img src="images/logo.gif" alt="" />
-     <nav id="menu" class="menu">
+          <img src="images/logo.gif" alt="PTB logo" />
+     <nav class="menu">
        <ul>
+         <li><a href="current">Home</a></li>
          <li><a href="about.html">About</a></li>
          <li><a href="contact.html">Contact</a></li>
        </ul>
      </nav>
-   </header>
-   <!-- end header -->
-     <article id="article" class="article">
-       <article id="australia">
+   </header> <!-- end header -->
+     <article class="article">
+       <article id="australia.html">
          <h2 class="article headings">Prices From Down Under</h1>
+           <figure>
+             <img src="images/australia.jpeg" alt="Australia" width="425" height="275">
+             <figcaption>A Picture of Australia</figcaption>
+           </figure>
          <p class="article paragraphs">
            I took a 14-day trip of a lifetime in Australia for under $1,500. By utilizing travel hacking and a little ingenious, this long, inexpensive trip was made possible. Normally, due to media, trips to Australia are hyped to be expensive. One of the main reasons taking a trip to Australia seems expensive is because of the fancy resorts, paid-tourist attractions, and the wining-and-dining <strong>are</strong> expensive.</p>
            <button><img src="images/button.gif" alt="" width="10" height="10" />Read More</button>
@@ -32,6 +40,10 @@
          </article>
          <article id="france">
            <h2 class="article headings">Leaning Tyler Full of Pizza</h2>
+           <figure>
+             <img src="images/france.jpeg" alt="France" width="425" height="275"
+             <figcaption>A Picture of France</figcaption>
+           </figure>
            <p class="paragraphs">You haven't had cousine until you have been to France. Oddly enough, the pizza in France is way better than America. Part of the reason the pizza is better is due to the bread the local shops are using.</p>
            <button><img src="images/button.gif" alt="" width="10" height="10" />Read More</button>
            <footer>
@@ -41,10 +53,10 @@
              <form action="http://www.wontwork.com/travel.php">
                <fieldset class="form">
                  <legend class="legend"> Where Should I travel Next?</legend>
-                 <p class="form comment">
+                 <p>
                    <label for="comment">Comment: </label>
                    <br />
-                   <textarea rows="4" cols="40">
+                   <textarea rows="8" cols="60">
                    </textarea>
                  </p>
                  <input type="submit" value="Submit" />
@@ -52,22 +64,20 @@
              </form>
            </div>
          </article>
-         <div class="content">
-           <h3 class="h3">Archives</h3>
-           <ul>
-             <li><a href="archives.html">Hong Kong</a></li>
-           </ul>
-           <a href="archives.html">See More Posts</a>
-         </div>
-         <br />
-         <div class="content">
+         <aside class="archive">
+           <h2>Archives</h2>
+             <a href="hongkong.html">Hong Kong</a>
+              <a href="archives.html">See More Posts</a>
+         </aside>
+         <div class="wrapper">
            <p><a href="#top">Top of Page</a></p>
-           <br />
+           </div>
+         </div><!-- end wrapper -->
          <footer id="footer" class="footer">
            <p class="quick links">Quick Links</p>
            <p><a href="about.html">About</a></p>
            <p><a href="contact.html">Contact</a></p>
            <p>&copy; Practice Travel Blog</p>
-         </footer>
+         </footer><!-- end footer -->
  </body>
 </html>
