@@ -2,96 +2,100 @@
 <html lang="en">
 
 <head>
-  <meta name="description" content="html-only travel blog project" />
-  <meta name="keywords" content="html, project, travel, blog" />
-  <meta name="robots" content="nofollow" />
-  <meta http-equiv="author" content="Tyler Hall" />
-  <meta http-equiv="pragma" content="no-cache" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="html-only travel blog project">
+  <meta name="keywords" content="html, project, travel, blog">
+  <meta name="robots" content="nofollow">
+  <meta http-equiv="author" content="Tyler Hall">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="canonical" href="./index.html">
 
-  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <link rel="stylesheet" href="/style.css" type="text/css">
   <title>Practice Travel Blog</title>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Crete+Round" rel="stylesheet">
 </head>
 
 <body>
-  <div class="wrapper">
-    <header id="top">
-      <h1>Practice Travel Blog</h1>
-      <img src="images/logo.gif" alt="PTB logo" />
-      <nav class="menu">
-        <ul>
-        <li><a href="./current">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-      </nav>
-    </header>
-    <!-- end header -->
-    <article class="article">
-      <article id="australia.html">
-        <header>
-          <h2>Prices From Down Under</h1>
-        </header>
-           <figure>
-             <img src="images/australia.jpeg" alt="Australia" width="425" height="275" />
-             <figcaption>A Picture of Australia</figcaption>
-           </figure>
-         <p>
-           I took a 14-day trip of a lifetime in Australia for under $1,500. By utilizing travel hacking and a little ingenious, this long, inexpensive trip was made possible. Normally, due to media, trips to Australia are hyped to be expensive. One of the main reasons taking a trip to Australia seems expensive is because of the fancy resorts, paid-tourist attractions, and the wining-and-dining <strong>are</strong> expensive.</p>
-           <button><img src="images/button.gif" alt="" width="10" height="10" />Read More</button>
-           <footer>
-             <p>By Tyler Hall / October 15, 2017</p>
-           </footer>
-         </article>
-         <article id="france">
-           <header>
-             <h2>Leaning Tyler Full of Pizza</h2>
-        </header>
-        <figure>
-          <img src="images/france.jpeg" alt="France" width="425" height="275" />
-          <figcaption>A Picture of France</figcaption>
-        </figure>
-        <p>You haven't had cousine until you have been to France. Oddly enough, the pizza in France is way better than America. Part of the reason the pizza is better is due to the bread the local shops are using.</p>
-        <button><img src="images/button.gif" alt="" width="10" height="10" />Read More</button>
-        <footer>
-          <p>By Tyler Hall / October 15, 2017</p>
-      </article>
-      <div id="form">
-        <form action="http://www.wontwork.com/travel.php">
-          <fieldset class="form">
-            <legend class="legend"> Where Should I travel Next?</legend>
-            <p>
-              <label for="comment">Comment: </label>
-              <br />
-              <textarea rows="8" cols="60">
-                   </textarea>
-            </p>
-            <input type="submit" value="Submit" />
-          </fieldset>
-        </form>
-      </div>
-    </article>
-    <aside class="archive">
+  <header id="top" class="mainheader">
+    <h1>Practice Travel Blog</h1>
+    <a href="/current"><img src="images/logo.gif" alt="logo" />
+   <nav class="navbar"></a>
+    <a href="./current">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+  <!-- end header -->
+  <div class="container">
+    <aside class="grid mainsidebar">
       <header>
-        <h2>Archives</h2>
+        <a href="/archives.html"><h2>Archives</h2></a>
       </header>
-      <nav>
-        <a href="./hongkong.html">Hong Kong</a><br />
+      <nav class="nav_sidebar">
+        <a href="./hongkong.html">Hong Kong</a>
         <a href="./archives.html">See More Posts</a>
       </nav>
     </aside>
-    <div class="wrapper">
-      <p><a href="#top">Top of Page</a></p>
-    </div>
+    <main class="grid maincontent">
+      <article>
+        <article id="australia" class="article1">
+          <header>
+            <a href="/australia.html"><h2>Prices From Down Under</h1></a>
+          </header>
+          <figure>
+            <img src="images/australia.jpeg" alt="Australia" />
+            <figcaption>A Picture of Australia</figcaption>
+          </figure>
+          <p>
+            I took a 14-day trip of a lifetime in Australia for under $1,500. By utilizing travel hacking and a little ingenious, this long, inexpensive trip was made possible. Normally, due to media, trips to Australia are hyped to be expensive. One of the main
+            reasons taking a trip to Australia seems expensive is because of the fancy resorts, paid-tourist attractions, and the wining-and-dining <strong>are</strong> expensive.</p>
+          <footer>
+            <p class="author">By Tyler Hall / October 15, 2017</p>
+            <button>Read More</button>
+          </footer>
+        </article>
+        <article id="france" class="article2">
+          <header>
+            <a href="/france.html"><h2>Leaning Tyler Full of Pizza</h2></a>
+          </header>
+          <figure>
+            <img src="images/france.jpeg" alt="France" />
+            <figcaption>A Picture of France</figcaption>
+          </figure>
+          <p>You haven't had cousine until you have been to France. Oddly enough, the pizza in France is way better than America. Part of the reason the pizza is better is due to the bread the local shops are using.</p>
+          <footer>
+            <p class="author">By Tyler Hall / October 15, 2017</p>
+            <button>Read More</button>
+          </footer>
+        </article>
+        <form action="http://www.wontwork.com/travel.php">
+          <fieldset>
+            <legend> Where Should I travel Next?</legend>
+            <p>
+              <label for="comment">Comment: </label>
+              <textarea rows="8" cols="60">
+                   </textarea>
+            </p>
+            <div>
+              <input type="submit" value="Submit" />
+            </div>
+          </fieldset>
+        </form>
+        <!-- end form -->
+      </article>
+      <div>
+        <p class="top"><a href="#top">Top of Page</a></p>
+      </div>
   </div>
   <!-- end wrapper -->
-  <footer class="footer">
-    <p>Quick Links</p>
-    <p><a href="./about.html">About</a></p>
-    <p><a href="./contact.html">Contact</a></p>
-    <p>&copy; Practice Travel Blog</p>
+  </main>
+  <footer class="mainfooter">
+    <h3>Quick Links</h3>
+    <a href="./about.html">About</a>
+    <a href="./contact.html">Contact</a>
+    <p class="copyright">&copy; Practice Travel Blog</p>
   </footer>
   <!-- end footer -->
 </body>
