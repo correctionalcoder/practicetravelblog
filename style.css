@@ -5,14 +5,12 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  max-width: 1200px;
 }
 
 .container {
   position: relative;
   padding: 0;
   background-color: LightGray;
-  width: 95%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 0.75fr 20px 0.25fr;
