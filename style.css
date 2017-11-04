@@ -1,5 +1,6 @@
 html, body {
   background-color: LightGray;
+  font-size: 16px
   text-align: left;
   width: 100%;
   margin: 0;
@@ -20,7 +21,7 @@ html, body {
 .mainheader {
   margin: 0;
   padding: 0;
-  height: 150px;
+  height: 9.375rem;
   width: 100%;
   position: relative;
   background-color: WhiteSmoke;
@@ -34,24 +35,25 @@ html, body {
 }
 
 .mainsidebar {
-  height: 400px;
+  height: 25rem;
   background-color: #fff;
   grid-area: 3 / 3 / 4 / 4;
 }
 
 .mainfooter {
-  height: 220px;
+  height: 13.75rem;
   padding: 0;
   margin: 0;
   background: WhiteSmoke;
+  min-height: 13.75rem;
 }
 
 .mainfooter a {
   display: block;
-  padding: 3px;
-  margin-left: 45px;
+  padding: 0.1875rem;
+  margin-left: 2.8125rem;
   font-family: Arial;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: DimGray;
 }
 
@@ -63,13 +65,13 @@ html, body {
   float: right;
   display: block;
   position: absolute;
-  bottom: 5px;
+  bottom: 0.3125rem;
   right: 0px;
 }
 
 .navbar a {
-  padding: 5px;
-  margin: 0px 10px 0px 0px;
+  padding: 0.3125rem;
+  margin: 0px 0.625rem 0px 0px;
   color: DimGray;
 }
 
@@ -100,9 +102,9 @@ h1 {
   font-style: italic;
   font-weight: 300;
   position: absolute;
-  top: 30px;
+  top: 1.875rem;
   bottom: 0px;
-  left: 50px;
+  left: 3.125rem;
   right: 0px;
 }
 
@@ -117,41 +119,41 @@ h2:hover {
 article header h2 {
   display: block;
   font-family: 'Anton', sans-serif;
-  font-size: 1.8em;
-  letter-spacing: 0.03em;
+  font-size: 1.8rem;
+  letter-spacing: 0.03rem;
   text-align: center;
   font-weight: 500;
 }
 
 h3 {
   font-family: 'Anton', sans-serif;
-  font-size: 1.6em;
-  margin-left: 20px;
+  font-size: 1.6rem;
+  margin-left: 1.25rem;
   margin-bottom: 0px;
   text-decoration: underline;
-  padding: 10px;
+  padding: 0.625rem;
   font-weight: 400;
 }
 
 aside {
-  padding: 5px;
+  padding: 0.3125rem;
   position: relative;
 }
 
 aside header h2 {
   display: block;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03rem;
   margin: 0px;
   font-family: 'Anton', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: 500;
 }
 
 aside nav a {
   display: block;
-  margin: 3px;
-  padding: 3px;
+  margin: 0.1875rem;
+  padding: 0.1875rem;
 }
 
 aside nav a:hover {
@@ -163,8 +165,8 @@ article p {
   width: 90%;
   text-align: left;
   color: #000;
-  line-height: 1.3em;
-  font-size: 1.4em;
+  line-height: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 400;
   font-family: 'Crete Round', serif;
 }
@@ -177,7 +179,7 @@ article footer {
 
 .author {
   color: #000;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: Arial;
   font-style: italic;
   width: 40%;
@@ -202,18 +204,18 @@ figcaption {
 
 img {
   width: 90%;
-  height: 300px;
+  height: 18.75rem;
 }
 
 button {
   color: #000;
   background-color: WhiteSmoke;
   display: block;
-  width: 100px;
-  height: 40px;
+  width: 6.25rem;
+  height: 2.5rem;
   position: absolute;
   bottom: 0;
-  right: 60px;
+  right: 3.75rem;
 }
 
 button:hover {
@@ -228,7 +230,7 @@ button:hover {
   left: 0;
   right: 0;
   margin: auto;
-  width: 140px;
+  width: 8.75rem;
   height: 100%;
 }
 
@@ -251,10 +253,10 @@ p.top {
 
 .copyright {
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: LightGray;
 }
 
 form {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
