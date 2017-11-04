@@ -56,13 +56,14 @@ body {
 }
 
 .maincontent {
-  margin: 0px;
+  margin: 0 auto;
   background-color: #fff;
   width: 90%;
   grid-area: 3 / 1 / 4 / 2;
 }
 
 .mainsidebar {
+  margin: 0 auto;
   height: 25rem;
   background-color: #fff;
   grid-area: 3 / 3 / 4 / 4;
